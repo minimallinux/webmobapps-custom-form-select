@@ -1,7 +1,7 @@
 <?php
  /**
- * Plugin Name: WP Contact Details Plugin
- * Plugin URI: https://github.com/minimallinux/webmobapps-custom-form-plugin.git/
+ * Plugin Name: WP Contact Details Selects Plugin
+ * Plugin URI: https://github.com/minimallinux/webmobapps-custom-form-select.git
  * Description: Customizable WordPress Contact Form Plugin with shortcode and submit/validation functions and success/error messages.
  * Version: 1.0
  * Author: P A McGowan
@@ -109,7 +109,7 @@ return "<form class='form' method='post' action=''>
     " . wp_nonce_field('handle_custom_form', 'nonce_custom_form') . "
 <div class='form-row'>
 <br />
-<button class='pbSubmitenq' name='submit'>Send Message</button>
+<button class='btn btn-primary' name='submit'>Send Message</button>
 </div>
 </fieldset>
 </form>";

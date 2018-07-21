@@ -1,6 +1,6 @@
 Simple Lightweight Custom Contact Form Plugin with select boxes for Wordpress with shortcode for templates or theme areas, and functions/validations to submit to WP Admin (or other) Email Address. Fairly easy to customize.
 
-Sample form uses a little UIKit CSS but it can be anything.
+Sample form uses ordinary CSS but it can be anything. Some styles attached
 
 Add your form code into the function "shortcode_handler()" in the return field as in demo see steps below.
 Be sure to add the submit button AFTER the wp_nonce_field at the end.

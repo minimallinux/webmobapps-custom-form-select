@@ -1,0 +1,43 @@
+label.label {
+font-weight:500;
+padding-top:4px;
+padding-bottom:4px;
+}
+.contact textarea,
+.contact input[type=tel],
+.contact input[type=email],
+.contact input[type=text] {
+ -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    background:#ffffff;
+    border:  solid 1px #e0e0e0;
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.contact select {
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+outline: none;  
+background:#ffffff;  
+border: solid 1px #e0e0e0;    
+min-height: 45px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+.contact textarea:focus,
+.contact input[type=tel]:focus,
+.contact input[type=email]:focus,
+.contact input[type=text]:focus {
+box-shadow: 0 0 5px  rgba(81,170,238, 0.7)!important;
+border: 1px solid rgba(81,170,238, 0.7)!important;
+}
+.contact select:focus {
+box-shadow: 0 0 5px  rgba(81,170,238, 0.7)!important;
+border: 1px solid rgba(81,170,238, 0.7)!important; 
+}
